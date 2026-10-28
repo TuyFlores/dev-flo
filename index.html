@@ -3,31 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aula 2</title>
+    <title>Cadastros</title>
 
 </head>
 <body>
-    <h3>Formulario</h3>
-    <form action="">
-        <legend>Dados Pessoais</legend>
-        <label for="Nome">Nome:</label>
-        <br><br>
-        <input type="text" id="Nome"   required placeholder="Digite seu nome">
-        <br><br>
-        <label for="Sobrenome">Sobrenome:</label>
-        <br><br>
-        <input type="text" id="Sobrenome"  required placeholder="Digite seu sobrenome"> <br>
-        
-        <label for="Idade">Idade:</label>
-        <br><br>
-        <input type="number" id="Idade"  required placeholder="Digite sua idade"><br>
-        <br><br>
-        <label for="telefone">Telefone:</label>
-        <br><br>
-        <input type="tel" id="telefone" required placeholder="Digite seu telefone">
-    
-     </form>
 
+    <h1>Cadastros</h1>  
+
+
+    <table>
+      <label for="cadastros"></label>
+      <select id="cadastros">
+        <option value="alunos">Cadastro de Alunos</option>
+        <option value="professores">Cadastro de Professores</option>
+        <option value="disciplinas">Cadastro de Disciplinas</option>
+      </select>
+        <button type="button" onclick="redirectToForm()">Ir</button>
+
+        <input type="text" id="Bases" placeholder="Pesquisar...">
+
+        <div id="formContainer"></div>
+
+
+
+    </table>
 
 
 
