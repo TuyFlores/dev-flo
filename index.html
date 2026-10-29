@@ -3,77 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>aula 3</title>
+    <title>aula 4</title>
 
 </head>
 <body>
 
-    <table border="1" cellpadding="2" cellspacing="5">
+<table border="1" cellspacing="5" cellpadding="7">
       <tr>
-        <td colspan="2">
-          <h2>Formulário de Cadastro</h2>
-        </td>
-      </tr>
-    </table>
-<br><br>
-    <form action="#" method="post">
-        <label for="nome">Nome:</label>
-        <input type="text" id="nome" placeholder="seu nome..." required>
-        <br><br>
-        <label for="email">Email:</label>
-        <input type="email" id="email" placeholder="seuemail@email.com" required>
-        <br><br>
-        <label for="senha">Senha:</label>
-        <input type="text" id="senha" placeholder="sua senha..." required>
-        <br><br>
-        <label for="Mensagem">Mensagem:</label>
-        <textarea name="Mensagem" id="mensagem" rows="1" cols="17"></textarea>
-        <br><br>
-        <label for="cidade">Cidade</label>
-        <select name="cidade" id="cidade">
-            <option value="Novo Hamburgo">Novo Hamburgo</option>
-            <option value="Canoas">Canoas</option>
-            <option value="Campo Bom">Campo Bom</option>
-            <option value="São Leopoldo">São Leopoldo</option>
-            <option value="outra">outra</option>
-        </select>
-
-       <table>
-   
-   <p>Escola:</p>
-    <label for="Cidade"></label>
-      <select id="cadastros">
-        <option value="alunos">Serie</option>
-        <option value="professores">Matricula</option>
-        <option value="disciplinas">Base</option>
-      </select>
-        <button type="button" onclick="redirectToForm()">Ir</button>
-
-        <input type="text" id="Bases" placeholder="Pesquisar...">
+        <td colspan="5">
+             <h2>Formulario</h2>  
+       </td>
+  
+     </tr>
 </table>
-       
-       
-        <fieldset>
-          
-              
-
-          <legend>Genero</legend>
-            <label for="masculino"></label>
-            <input type="radio" id="masculino" name="genero" value="M">
-            <label for="masculino">Masculino</label>
-            <input type="radio" id="feminino" name="genero" value="F">
-            <label for="feminino">Feminino</label>
-            <label for="outro"></label>
-            <input type="radio" id="outro" name="genero" value="O">
-            <label for="outro">Outro</label>
-    </form>
-<div>
 <br><br>
 
-<button type="submit">Enviar</button>
+  <form action="#" method="post">
+      
+      <label for="name">Nome:</label>
+      <BR></BR>
+      <input type="text" id="name" name="name" placeholder="seu nome completo">
+      <br><br>
+      <label for="email">E-mail:</label>
+      <br><br>
+      <input type="email" id="email" name="email" placeholder="seuemail@email.com">
+      <br><br>
+      <label for="email">E-mail:</label>
+      <br><br>
+      <input type="email" id="email" placeholder="seuemail@email.com">
+      <br><br>
+      <label for="senha">Senha (min 6, só letras e números):</label>
+      <br><br>
+      <input type="password" id="senha" pattern="[a-zA-Z0-9]{6,}" placeholder="Minimo 6 caracteres..." required>
+      <br><br>
+      <input type="submit" value="Enviar">
+      <br><br>
+      <label for="idade">Idade (13 a 99)</label>
+      <br><br>
+      <input type="number" id="idade" name="idade" min="13" max="99" required>
+      <br><br>
 
 
-</div>
+
+
+
+  </form>
+
+
+
+
+
+
+
 </body>
 
 </html>
