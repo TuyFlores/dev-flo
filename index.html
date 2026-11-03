@@ -3,293 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TRABALHO</title>
+    <title>CSS</title>
+
     <style>
-       .explicacao p{   
-         color: red;   
+        h1 {
+            color: blue;
         }
 
-        h4 {
-          border: 3px solid black;
-          width: 150px;
-          border-radius: 120px;
-          text-align: center;
-          background-color: yellowgreen;
+        .legal {
+            color: green;
+            border: 1px solid black;
+            font-size: 32px;
         }
-        
+
+        .exemplo {
+            color: red;
+            border: 1px solid black;
+            font-size: 32px;  
+        }
     </style>
 
 </head>
 <body>
+  
+<h1>Amor</h1>
 
-<table border="1" cellpadding="5" cellspacing="0">
-  <tr>
-    <td colspan="3">
-      <h1>Informações</h1>
-    </td>
-  </tr>
-</table>
+<h1 class="legal">Vamos entender as Tags e Seletores</h1>
 
-<br><br>
-
-
-  <table border="1" cellpadding="5" cellspacing="0">
-    <thead>
-      <tr>
-        <td colspan="3">
-          <h2>Alunos</h2>
-        </td>
-      </tr>
-      <tr>
-        <th>Nome</th>
-        <th>Idade</th>
-        <th>Hobby</th>
-        </td>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td> Vitoria </td>
-        <td> 16 </td>
-        <td> Dançar </td>
-      </tr>
-      <tr>
-        <td> Apollo </td>
-        <td> 14 </td>
-        <td> Jogar bola </td>
-      </tr>
-      <tr>
-        <td> Bernardo </td>
-        <td> 14 </td>
-        <td> Jogar bola </td>
-      </tr>
-      <tr>
-        <td> Maria </td>
-        <td> 16 </td>
-        <td> Volei </td>
-      </tr>
-      <tr>
-        <td> Miguel </td>
-        <td> 16 </td>
-        <td> Andar a Cavalo </td>
-      </tr>
-      <tr>
-        <td> Arthur </td>
-        <td> 15 </td>
-        <td> Volei </td>
-      </tr>
-    </tbody>
-  </table>
-
-
-  <br><br>
-  <br><br>
-  <br><br>
- 
-  <div class="explicacao">
-<table border="1" cellpadding="5" cellspacing="2">
-  <tr>
-    <td colspan="3">
-      <h2><p>Formulário Escolar</p></h2>
-
-    </td>
-  </tr>
-</table>
-
-</div>
-
-<br><br>
-<br><br>
-
-
-<table border="1" cellpadding="1" cellspacing="1">
-  <tr>
-    <td colspan="1">
-      <h3>Cadastro de Alunos</h3>
-
-    </td>
-  </tr>
-</table>
-
-<br><br>
-
-
-
-
-
-<label for="cadastros"></label>
-      <select id="cadastros">
-        <option value="alunos">Cadastro de Alunos</option>
-        <option value="professores">Cadastro de Professores</option>
-        <option value="disciplinas">Cadastro de Disciplinas</option>
-          <section>
-            
-
-        <br><br>
-
-
-
-
-
-  <form action="#" method="post">
-      
-      <label for="name">Nome:</label>
-      <BR></BR>
-      <input type="text" id="name" name="name" placeholder="seu nome completo">
-      <br><br>
-      
-      <label for="email">E-mail:</label>
-      <br><br>
-      <input type="email" id="email" placeholder="seuemail@email.com">
-      <br><br>
-      <label for="senha">Senha (min 8, só letras e números):</label>
-      <br><br>
-      <input type="password" id="senha" pattern="[a-zA-Z0-9]{8,}" placeholder="Minimo 8 caracteres..." required>
-      <br><br>
-      <label for="idade">Idade (13 a 70)</label>
-      <br><br>
-      <input type="number" id="idade" name="idade" min="13" max="70" required>
-      <br><br>
-      <label for="genero">Gênero:</label>
-      <br><br>
-      <select id="genero" name="genero">
-        <option value="masculino">Masculino</option>
-        <option value="feminino">Feminino</option>
-        <option value="outro">Outro</option>
-      </select>
-
-    
-
-    <br><br>
-    <table border="1" cellpadding="1" cellspacing="1">
-      <tr>
-        <td colspan="0">
-          <h3>Escolas Regionais:</h3>
-        </td>
-      </tr>
-    </table>
-    <br><br>
-
-
-      <label for="Escolas"></label>
-      <select id="Escolas">
-          <option value="Estado">Estado</option>
-            <option value="Cidade">Cidade</option>
-            <option value="Escola">Nome da Escola</option>
-      </select>
-<br><br>
-<h4>Horário</h4>
-
-
-<label for="Horarios"></label>
-      <select id="Horarios">
-          <option value="manha">Manhã</option>
-          <option value="tarde">Tarde</option>
-          <option value="noite">Noite</option>
-      </select>
-      <br><br>
-<form action="#" method="post">
-      
-
-     
-      <input type="text" id="name" name="name" placeholder="Suas Preferencias...">
-      <br><br>
-
-      <h4 class="deficiencia">Há alguma deficiencia?</h4>
-      <label for="Deficiencia"></label>
-      <select id="Deficiencia">
-          <option value="TDAH">TDAH</option>
-          <option value="autismo">Autismo</option>
-          <option value="Sindrome de Down">Síndrome de Down</option>
-          <option value="deficiencia fisica">Deficiência Física</option>
-          <option value="outra">Outra</option>
-          <option value="Não há Nenhuma">Não</option>
-      </select>
-      <br><br>
-<br><br>
-        <input type="submit" value="Enviar Formulario">
-        <br><br>
-        <br><br>
-        <br><br>
-        <br><br>
-        <h1>Obrigado por se cadastrar!</h1>
-        <h4>Te conhecendo mais</h4>
-        <br><br>
-        <br><br>
-        <h4>Suas Preferências:</h4>
-        <br><br>
-        <table border="1" cellpadding="5" cellspacing="0">
-    <thead>
-      <tr>
-        <td colspan="3">
-          <h2>Alunos</h2>
-        </td>
-      </tr>
-      <tr>
-        <th>Nome</th>
-        <th>Idade</th>
-        <th>Hobby</th>
-        <th>Cor Favorita</th>
-        <th>Esporte Favorito</th>
-        <th>Oque quer ser quando crescer?</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td> Nome </td>
-        <td> Idade </td>
-        <td> -------- </td>
-        <td> <input type="color" value="#2839288"> </td>
-        <td> -------- </td>
-        <td> --------  </td>
-      </tr>
-      <tr>
-        <td> Nome </td>
-        <td> Idade  </td>
-        <td> --------  </td>
-        <td> <input type="color" value="#2839288"> </td>
-        <td> -------- </td>
-        <td> -------- </td>
-      </tr>
-      <tr>
-        <td> Nome </td>
-        <td> Idade </td>
-        <td> --------  </td>
-
-        <td> <input type="color" value="#2839288">  </td>
-        <td> -------- </td>
-        <td> -------- </td>
-      </tr>
-      <tr>
-        <td> Nome </td>
-        <td> Idade </td>
-        <td> -------- </td>
-        <td> <input type="color" value="#2839288"> </td>
-        <td> -------- </td>
-        <td> --------  </td>
-      </tr>
-      <tr>
-        <td> Nome </td>
-        <td> Idade </td>
-        <td> -------- </td>
-        <td> <input type="color" value="#2839288"> </td>
-        <td> -------- </td>
-        <td> -------- </td>
-      </tr>
-      <tr>
-        <td> Nome </td>
-        <td> Idade </td>
-        <td> -------- </td>
-
-        <td> <input type="color" value="#2839288"></td>
-        <td> -------- </td>
-        <td> -------- </td>
-      </tr>
-    </tbody>
-  </table>
-
-
-      </body>
-
+<p class="exemplo">Este é um parágrafo de exemplo.</p>
+</body>
 
 </html>
