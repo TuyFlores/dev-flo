@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Redaction+50:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tiny5+Duo:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: rgb(220, 228, 234);
+}
+ span{
+    display: block;
+    margin-bottom: 10px;
+    background-color: hsl(308, 44%, 54%);
+ }
