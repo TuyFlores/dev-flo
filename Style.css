@@ -4,10 +4,11 @@
     --cor-borda: #2563eb;
     --cor-hover: yellow;
     --cor-texto: white;
+    --cor-botao: green;
 
-    --espaçamento: 20px
-    --arredondamento: 12px
-    --transicao: 0.3s
+    --espacamento: 20px;
+    --arredondamento: 12px;
+    --transicao: 0.3s;
 }
 
 *{
@@ -26,7 +27,7 @@ header{
 }
 .container{
     display: flex;
-    gap: var(--espaçamento);
+    gap: var(--espacamento);
     /* flex-direction: column; */
 }
 .card{
@@ -36,4 +37,18 @@ header{
     border-radius: var(--arredondamento);
     flex: 1;
     text-align: center;
+}
+button{
+    background-color: var(--cor-botao);
+    color: var(--cor-texto);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: var(--transicao);
+
+}
+button:hover{
+    background-color: var(--cor-hover);
+    transform: translateX(5px);
 }
