@@ -41,6 +41,17 @@ nav a{
     color: var(--cor-texto);
     text-decoration: none;
 }
+nav a:hover{
+    color: var(--cor-principal);
+}
+banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: var(--espacamento);
+    padding: 70px 8%;
+    background-color: linear-gradient(120deg, #312e81, #0f172a);
+}
 
 header{
     text-align: center;
