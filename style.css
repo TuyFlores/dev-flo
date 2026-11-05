@@ -1,10 +1,13 @@
 :root{
     --cor-fundo: #f1f5f9;
-    --cor-card: rgb(248,130,40);
+    --cor-card: #4384a1;
     --cor-borda: #2563eb;
     --cor-hover: yellow;
     --cor-texto: white;
     --cor-botao: green;
+    --cor-principal: Black;
+
+
 
     --espacamento: 20px;
     --arredondamento: 12px;
@@ -20,6 +23,25 @@ body{
     margin: 0;
     padding: 30px;
 }
+ .topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background-color: var(--cor-card);
+}
+.topo h1{
+    color: var(--cor-principal);
+}
+nav{
+    display: flex;
+    gap: var(--espacamento);
+}
+nav a{
+    color: var(--cor-texto);
+    text-decoration: none;
+}
+
 header{
     text-align: center;
     margin-bottom: 40px;
